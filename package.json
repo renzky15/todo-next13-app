@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "yarn json-server & next build",
     "start": "next start",
     "lint": "next lint",
     "json-server": "json-server --watch public/data/todos.json --port 3001"
